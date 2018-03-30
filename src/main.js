@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import mock from './mock/'
 
+mock.start()
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
